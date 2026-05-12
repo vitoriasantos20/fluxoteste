@@ -1,0 +1,14 @@
+import pyautogui
+import time
+
+pyautogui.alert('O código vai começar. Aguarde a inicialização')
+pyautogui.PAUSE = 0.2
+
+pyautogui.press('winleft')
+pyautogui.write('Excel')
+pyautogui.press('enter')
+
+pyautogui.moveTo(100, 50, duration=1)
+pyautogui.press('enter')
+
+
